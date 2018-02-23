@@ -1,0 +1,1 @@
+用react项目脚手架结合react-router完成足球圈的项目，自己用node搭建后台完成数据的传递
