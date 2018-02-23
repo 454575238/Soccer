@@ -1,0 +1,19 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-23 17:17:53
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-23 17:53:44
+*/
+.mine-data{
+    width: 100%;height: 1.9rem;
+    display: flex ;
+
+}
+.mine-data a  {display: block;width: 100%;text-align: center;box-sizing:border-box;
+    color:#999999;
+}
+
+.mine-data .mine-choice{
+    border-bottom:2px solid #0dc441;
+    color:#0dc441;
+}

@@ -1,0 +1,31 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-21 13:42:01
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-21 16:31:55
+*/
+.con-hots .header  {
+
+    height:2.6rem;
+
+    display:flex;
+    justify-content:space-around;
+    border-bottom:1px solid #d9d9d9;
+
+}
+.con-hots .header a{
+    text-align: center;
+    line-height:2.2rem;
+    color:#666666;
+    width: 33%;
+    display: inline-block;
+    height:2.6rem;
+    box-sizing: border-box;
+
+
+}
+
+.con-hots .header .active{
+    color:#0dc441;
+  border-bottom:2px solid #0dc441;
+}

@@ -1,0 +1,33 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-22 13:16:15
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-22 13:38:29
+*/
+.content ul{
+    display: flex;
+
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-bottom: 2rem;
+
+}
+.content ul li{
+    float: left;
+    margin-top:0.5rem;
+
+    border: 1px solid #e5e5e5;
+
+
+}
+.content ul li img{
+    width: 11.3rem;
+
+}
+.content ul li span{
+    text-indent: 0.5em;
+
+    display:block;
+     height:2.45rem;
+
+}

@@ -1,0 +1,34 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-19 17:24:15
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-21 16:55:56
+*/
+.con-index header{
+    height: 3.2rem;
+    background:#0dc441;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.con-index header a{
+    display: inline-block;
+    height:1.8rem;
+    width:4.1rem;
+    background:#3dd067;
+    text-align: center;
+    line-height: 1.6rem;
+
+}
+.con-index header a:nth-child(1){
+    border-radius: 1rem 0 0  1rem;
+}
+.con-index header a:nth-child(2){
+    border-radius:  0 1rem 1rem 0;
+}
+
+.con-index header .pay{
+     background:#64d985;
+    color:white;
+}
