@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-22 16:18:54
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-23 15:33:34
+* @Last Modified time: 2018-02-24 15:47:20
 */
 var express = require('express');
 var app = express();
@@ -61,6 +61,20 @@ app.post('/api/register',function(req,res){
         }
     })
 
+})
+//获取数据
+app.post('/api/users',function(req,res){
+    UserModel.find({},function(err,doc){
+        if(err){
+            console.log(err)
+            return
+        }else{
+            res.json({
+                code:0,
+                msg:doc
+            })
+        }
+    })
 })
 
 

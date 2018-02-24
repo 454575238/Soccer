@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-23 16:26:25
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-23 17:04:45
+* @Last Modified time: 2018-02-24 14:52:09
 */
 import React,{Component} from 'react';
 import './Mines.css';
@@ -13,7 +13,7 @@ class  Mines extends Component {
                     <div className="users">
                         <img src={a} alt="" />
                         <div>
-                        <p>{JSON.parse(localStorage.user).user}</p>
+                        <p>{this.props.data}</p>
                         <span>我是小萌我怕谁哈哈哈</span>
                         </div>
                     </div>

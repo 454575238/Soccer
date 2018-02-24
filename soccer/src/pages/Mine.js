@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2018-02-21 16:43:51
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-02-23 17:55:28
+* @Last Modified time: 2018-02-24 14:53:06
 */
 
 import React,{Component} from 'react';
@@ -18,7 +18,7 @@ class Mine extends Component{
     render(){
         return(<div className="con-index">
                     <header style={{ fontSize:"1.2rem",color:"white"}}>个人中心</header>
-                    {localStorage.user?<div><Mines />
+                    {localStorage.user?<div><Mines data={JSON.parse(localStorage.user).user} />
                         <ul className="mine-data">
                         <NavLink to="/mine/photo" activeClassName="mine-choice" ><li>照片（0）</li></NavLink>
                         <NavLink to="/mine/att" activeClassName="mine-choice" ><li>关注（0）</li></NavLink>
